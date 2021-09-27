@@ -24,22 +24,6 @@ class MainActivity : AppCompatActivity() {
 
         val appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
-
-//        val tabLayout = findViewById<TabLayout>(R.id.tab_layout)
-//        val viewPager = findViewById<ViewPager2>(R.id.pager)
-//        viewPager.adapter = ViewpagerAdapter(supportFragmentManager, lifecycle)
-//        TabLayoutMediator(tabLayout, viewPager) { tab, position ->
-//            if(position == 0) {
-//                tab.text = "Tab 1"
-//            } else {
-//                tab.text = "Tab 2"
-//            }
-//
-//        }.attach()
-
-
-
-
     }
 
     override fun onSupportNavigateUp(): Boolean {

@@ -63,14 +63,6 @@ class Tab1Fragment : Fragment(), PunkDataAdapter.OnItemClickListener {
 
     override fun onItemClick(punkData: PunkData) {
         itemClickListener.onItemClicked(punkData)
-
-//        val action = Tab1FragmentDirections.actionTab1Fragment3ToDetailsFragment2(punkData)
-//        findNavController().navigate(action)
-//        val intent = Intent(activity, DetailsActivity::class.java).apply {
-//            putExtra("punkData", punkData)
-//        }
-//        startActivity(intent)
-
     }
 
     override fun onDestroyView() {

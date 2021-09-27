@@ -58,10 +58,6 @@ class Tab2Fragment : Fragment(), PunkDataAdapter.OnItemClickListener {
 
     override fun onItemClick(punkData: PunkData) {
         itemClickListener.onItemClicked(punkData)
-//        val intent = Intent(activity, DetailsActivity::class.java).apply {
-//            putExtra("punkData", punkData)
-//        }
-//        startActivity(intent)
     }
 
     override fun onDestroyView() {

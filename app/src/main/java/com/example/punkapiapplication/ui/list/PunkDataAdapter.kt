@@ -54,8 +54,6 @@ class PunkDataAdapter(
                     if (position != RecyclerView.NO_POSITION) {
                         val item = getItem(position)
                         if (item != null) {
-//                            item.checked = !item.checked
-//                            notifyItemChanged(position)
                             listener.onItemCheck(item, checkbox.isChecked, position)
 
                         }
@@ -66,8 +64,6 @@ class PunkDataAdapter(
                     if (position != RecyclerView.NO_POSITION) {
                         val item = getItem(position)
                         if (item != null) {
-//                            item.checked = !item.checked
-//                            notifyItemChanged(position)
                             listener.onItemCheck(item, checkbox2.isChecked, position)
                         }
                     }
@@ -110,7 +106,6 @@ class PunkDataAdapter(
                     } else {
                         checkbox2.isChecked = false
                     }
-                    //checkbox2.isChecked = punkData.checked
                 }
             }
 
